@@ -1,0 +1,27 @@
+.services h3.featurette-heading {
+	margin-top: 5px;
+	color: #f6cc68;
+}
+
+.services img {
+	margin-bottom: 15px;
+}
+
+.services h4 {
+	margin-top: 20px;
+	margin-bottom: 4px;
+}
+
+.services .training {
+	border-left: 1px dashed #8c989e; 
+	padding-left: 25px;
+}
+
+.services .trainings .title:hover {
+	cursor: pointer;
+	background-color: red;
+}
+
+.services .emphasize h3 {
+	background-color: red;
+}

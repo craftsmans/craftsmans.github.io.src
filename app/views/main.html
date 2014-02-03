@@ -1,0 +1,564 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <div class="ad">
+            <div class="container">
+                <p>
+                    <strong>The Art of Writing Clean Code</strong> training is coming soon. Learn how to write clean, effective and maintainable code. <a  ng-click="scrollAndEmphasize('.cleancode')">More »</a>
+                </p>
+            </div>
+        </div>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns"></div>
+                </div>
+                <div class="row">
+                    <div class="four columns">
+                    </div>
+                    <div class="eight columns toggle-jump main-nav collapse navbar-collapse bs-js-navbar-collapse collapse">
+                        <!-- Regular Nav -->
+                        <ul class="nav right">
+                            <li>
+                                <a ng-click="scroll(0)" class="gray">Home</a>
+                            </li>
+                            <li>
+                                <a ng-click="scroll('.services')">Services</a>
+                            </li>
+                            <li>
+                                <a ng-click="scroll('.team')">Team</a>
+                            </li>
+                            <li>
+                                <a ng-click="scroll('.get-in-touch')">Contacts</a>
+                            </li>
+                        </ul><!-- /nav right -->
+                    </div><!-- /eight columns -->
+                </div><!-- /row -->
+                <div class="row">
+                    <div class="six columns end">
+                        <div class="header-content">
+                            <h1 class="hello">
+                                Hello.
+                            </h1>
+                            <p class="subheading">
+                                We're <strong>Craftsman's Passion</strong>. We believe that your software has a chance to be amazing and it’s time to act. We're responding to a mainstream software industry with a knocking dose of professionalism &amp; care.
+                            </p>
+                        </div><a class="btn btn-lg btn-success marketing" ng-click="scroll('.why')" role="button">Learn more</a>
+                    </div>
+                </div><!-- /row -->
+            </div>
+        </div>
+        <div class="container why">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h1 class="featurette-heading">
+                        Why Craftsman's Passion?
+                    </h1>
+                    <p class="lead">
+                        We’re small group or experienced software craftsmen that <strong>gets things done</strong>, no fluff. We don't have analysts, testers, project managers nor simply programmers. Our people can create quality software from beginning to the end. We have passion for it. We’re open and transparent to you - when we think something sucks, we’ll tell you immediately. We value simplicity and spend time on making things simple. We do not cut corners even if someone would like us to do - we stand behind our work which is of top-notch quality. In fact, we’re not for everyone. We’re for those who seek to be step ahead.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="darken">
+            <div class="services container">
+                <div class="row featurette">
+                    <div class="col-md-2">
+                        <img src="/images/brain.png" width="128px">
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="featurette-heading">
+                            We train &amp; develop. <span class="text-muted">Learn from experts.</span>
+                        </h3>
+                        <p>
+                            Skilled people, sterling team play and a disciplined approach to delivery are the keys to building great systems. We assist in building performant teams by organising trainings touching both technology and progressive approaches to software development. Join one of our open trainings or let us organise exclusive event for your team.
+                        </p>
+                    </div>
+                </div>
+                <div class="trainings">
+
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                     <div class="training">
+                            <div>
+                                <h3 class="title" data-toggle="collapse" data-target="#engineering-practices">
+                                    Essential Engineering Practices for Agile Projects
+                                </h3>
+                            </div>
+                            <div id="engineering-practices" class="collapse">
+                                <p>
+                                    Implementign Agile software development is tricky. Besides organizational mind-shift, agile puts high pressure on development teams and demands following vital engineering practices in order to succeed. 
+                                    Learn how to streamline agile software development by injecting 9 core agile engineering practices into your team:
+                                </p>
+                                <ul>
+                                  <li>Pair Programming</li>
+                                  <li>Code Review</li>
+                                  <li>Refactoring</li>
+                                  <li>Continuous Integration</li>
+                                  <li>Build &amp; Deployment Automation</li>
+                                  <li>Functional Testing Automation</li>
+                                  <li>Unit Testing</li>
+                                  <li>Test-Driven Development</li>
+                                  <li>Domain-Driven Design</li>
+                                </ul>
+
+                                <p>Learn phylosophy and rationale behind techniques, understand how do they work and complement each other, find out how to immediately apply obtained knowledge in your project.</p>
+                                <h4>
+                                    How it's gonna look like?
+                                </h4>
+                                <p>
+                                  We'll explore core agile engineering practices based on real-world examples and a working Java project, discuss and exchange experience. You will be sent the working Java project for further independent analysis.
+                                </p>
+                                <h4>
+                                    How long it's gonna take?
+                                </h4>
+                                <p>
+                                    1 day.
+                                </p>
+                                <h4>
+                                    Am I eligible?
+                                </h4>
+                                <p>
+                                    Yes if you're developer, QA engineer, IT project manager or team lead and you're not afraid of some code.
+                                </p>
+                                <h4>
+                                    Trainer
+                                </h4>
+                                <p>
+                                    <a ng-click="scroll('.team')">Eduards Sizovs</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <div class="training cleancode">
+                            <div>
+                                <h3 class="title" data-toggle="collapse" data-target="#cleancode">
+                                     The Art of Writing Clean Code
+                                </h3>
+                            </div>
+                            <div id="cleancode" class="collapse">
+                                <p>
+                                    Writing clean, effective and maintainable code is essential for any long-living software product. By neglecting that fact, teams bring up a time bomb - step by step, imperfection creeps into the code, infecting different parts of the system until system is put on its knees. Continuously keeping internal structure of a product in a good shape is a big challenge for the team - it takes years to master a ream of substantial techniques, practices and patterns… But the project has already begun. In this training, in a short time you’ll find out how to write code that you, your colleagues and followers will adore. This, in turn, will make your products and customers shine.
+                                </p>
+                                <h4>
+                                    How it's gonna look like?
+                                </h4>
+                                <p>
+                                    Together we’ll dive deeply into essential coding and software development techniques - we’ll discuss organisational and technical problems, find out solutions by exploring related techniques, practices and patterns, rip up existing projects and codebases. Optionally you will be sent a practical homework assignment with detailed solution feedback upon completion.
+                                </p>
+                                <h4>
+                                    How long it's gonna take?
+                                </h4>
+                                <p>
+                                    2 days.
+                                </p>
+                                <h4>
+                                    Am I eligible?
+                                </h4>
+                                <p>
+                                    Yes, if you are passionate programmer eager to improve your coding and design skills. Most examples will be shown in Java.
+                                </p>
+                                <h4>
+                                    Trainer
+                                </h4>
+                                <p>
+                                    <a ng-click="scroll('.team')">Eduards Sizovs</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                       <div class="training">
+                            <div>
+                                <h3 class="title" data-toggle="collapse" data-target="#testing-automation">
+                                    Practical Software Testing Automation
+                                </h3>
+                            </div>
+                            <div id="testing-automation" class="collapse">
+                                <p>
+
+                                  Automation makes people supervisors, instead of pipeline operators. Suprisingly, everything expect creative human work can be automated. It's time to for your team to work on creative and inspiring things and leave machines do the rest. Eliminate human-prone manual testing by introducing all-round testing automation. Learn how to organize effective testing process using (A)TDD, write functional and cross-functional tests targeting RESTful APIs and UI, implement stress-testing and produce business-facing acceptance tests using Cucumber and Relish.
+                                </p>
+                                <h4>
+                                    How it's gonna look like?
+                                </h4>
+                                <p>
+                                    We'll explore modern software automation techniques based on real-world examples and a working Java project, discuss and exchange experience. You will be sent the working Java project for further independent analysis.
+                                </p>
+                                <h4>
+                                    How long it's gonna take?
+                                </h4>
+                                <p>
+                                    2 days.
+                                </p>
+                                <h4>
+                                    Am I eligible?
+                                </h4>
+                                <p>
+                                    Yes if you're seasoned QA engineer or developer willing to automate everything. Basic knowledge of Java programming language is desirable.
+                                </p>
+                                <h4>
+                                    Trainer
+                                </h4>
+                                <p>
+                                    <a ng-click="scroll('.team')">Eduards Sizovs</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                       <div class="training">
+                            <div>
+                                <h3 class="title" data-toggle="collapse" data-target="#ddd">
+                                    Practical Domain-Driven Design
+                                </h3>
+                            </div>
+                            <div id="ddd" class="collapse">
+                                <p>
+                                  Domain model is in the heart of every enterprise application. Nowadays developers spend too much time working on "surrondings", tackling deeply technical, challenging issues. However, it's a core domain which makes business spin, while everything around has just a supporting function. Domain-Driven Design or DDD is an excellent way to approach complex software problems, and make them far more understandable and manageable. Unfortunately, developers find DDD pretty hard to grasp because of poorly-written materials available online, lack of good examples and industry-spread experience. Because of this, vitally important practice is left aboard. In fact, DDD is  pretty simple if attacked from the right perspective. Learn how to do both tactical and strategical DDD right.
+                                </p>
+                                <h4>
+                                    How it's gonna look like?
+                                </h4>
+                                <p>
+                                    We'll explore DDD techniques based on real-world examples and a working Java project, discuss and exchange experience. You will be sent the working Java project for further independent analysis.
+                                </p>
+                                <h4>
+                                    How long it's gonna take?
+                                </h4>
+                                <p>
+                                    2 days.
+                                </p>
+                                <h4>
+                                    Am I eligible?
+                                </h4>
+                                <p>
+                                    Yes if you're seasoned developer / architect / team leader willing to understand DDD thoroughly. Knowledge of Java programming language is desirable.
+                                </p>
+                                <h4>
+                                    Trainer
+                                </h4>
+                                <p>
+                                    <a ng-click="scroll('.team')">Eduards Sizovs</a>
+                                </p>
+                            </div>
+                        </div>                      
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-10">
+      
+                     <div class="training">
+                            <div>
+                                <h3 class="title" data-toggle="collapse" data-target="#unit-testing">
+                                    Pragmatic Unit Testing
+                                </h3>
+                            </div>
+                            <div id="unit-testing" class="collapse">
+                              <p>
+                                adadad
+                              </p>
+                             <h4>
+                                    How it's gonna look like?
+                                </h4>
+                                <p>
+                                  — Asynchrony — Using Groovy for testing
+                                </p>
+                                <h4>
+                                    How long it's gonna take?
+                                </h4>
+                                <p>
+                                    2 days.
+                                </p>
+                                <h4>
+                                    Am I eligible?
+                                </h4>
+                                <p>
+                                    Yes if you're seasoned developer / architect / team leader willing to improve your unit testing experience. Knowledge of Java programming language is mandatory.
+                                </p>
+                                <h4>
+                                    Trainer
+                                </h4>
+                                <p>
+                                    <a ng-click="scroll('.team')">Eduards Sizovs</a>
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-10">
+      
+                     <div class="training">
+                            <div>
+                                <h3 class="title" data-toggle="collapse" data-target="#spec-by-example">
+                                    Specification By Example
+                                </h3>
+                            </div>
+                            <div id="spec-by-example" class="collapse">
+                              <p>
+                                adadad
+                              </p>
+                             <h4>
+                                    How it's gonna look like?
+                                </h4>
+                                <p>
+                                  — Asynchrony — Using Groovy for testing
+                                </p>
+                                <h4>
+                                    How long it's gonna take?
+                                </h4>
+                                <p>
+                                    2 days.
+                                </p>
+                                <h4>
+                                    Am I eligible?
+                                </h4>
+                                <p>
+                                    Yes if you're seasoned developer / architect / team leader willing to improve your unit testing experience. Knowledge of Java programming language is mandatory.
+                                </p>
+                                <h4>
+                                    Trainer
+                                </h4>
+                                <p>
+                                    <a ng-click="scroll('.team')">Eduards Sizovs</a>
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-10">
+      
+                     <div class="training">
+                            <div>
+                                <h3 class="title" data-toggle="collapse" data-target="#spring">
+                                    Spring Framework - A Deep Dive
+                                </h3>
+                            </div>
+                            <div id="spring" class="collapse">
+                              <p>
+                                Spring Framework is the most widely used framework in Java world and thence demands extra attention from developer's perspective. Our experience shows that functional richness of Spring comes with a cost - usually it gets overused and misunderstood which leads to hard-to-maintain projects. This training will cover Spring in details and teach you how to apply it properly in large, multi-module projects. Become master in Spring by learning it's deep phylosophy and evolution, best practices and common pitfalls, start architecting complex but easy-to-understand software with Spring, explore advanced functionality that goes behind basic IoC, dive deeply into internals of core framework and spread your knowledge by integrating it with various 3rd party frameworks like Hibernate or DropWizard.
+                              </p>
+                             <h4>
+                                    How it's gonna look like?
+                                </h4>
+                                  
+                                <p>
+
+                                  We'll cover fundamental theory, solve real-world challenges and tricky-cases with Spring. We'll architect layered, multi-module applications by applying the latest best-practices in development and testing. A lot of code is going to be written.
+                                </p>
+                                <h4>
+                                    How long it's gonna take?
+                                </h4>
+                                <p>
+                                    2 days.
+                                </p>
+                                <h4>
+                                    Am I eligible?
+                                </h4>
+                                <p>
+                                    Yes if you're seasoned developer / architect / team leader willing to improve your unit testing experience. Knowledge of Java programming language is mandatory.
+                                </p>
+                                <h4>
+                                    Trainer
+                                </h4>
+                                <p>
+                                    <a ng-click="scroll('.team')">Eduards Sizovs</a>
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>            
+
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+
+                      <div class="training">
+                            <div>
+                                <h3 class="title" data-toggle="collapse" data-target="#architecture">
+                                    Software Architecture for Developers
+                                </h3>
+                            </div>
+                            <div id="architecture" class="collapse">
+                                <p>
+
+                                    In the age of agile software development and cross-functional teams, everyone is an architect. Software architecture is not about big up-front design with UMLs and circles on the whiteboard - it's about practices and techniques you have to follow in order to keep design clean under a rain of changing requirements, things that are extremely important for fighting design entropy. As a professional developer you should know how to cope with evolutionary design and avoid "code &amp; fix" insanity. Spread your knowlege beyond coding - learn how to lead the way and do "just enough" software architecture by youself. Define, ensure and articulate software architeture in your team, maintain technical vision and keep balance with agility.
+                                </p>
+                                <h4>
+                                    How it's gonna look like?
+                                </h4>
+                                <p>
+                                  Together we'll dive deeply into essential software architecture techniques. You'll discover modern architectural patterns, paradigms and tools, understand why there is no conflict between agile and architecture. 
+                                  Optionally you will be sent a practical homework assignment with detailed solution feedback upon completion.
+                                </p>
+                                <h4>
+                                    How long it's gonna take?
+                                </h4>
+                                <p>
+                                    2 days.
+                                </p>
+                                <h4>
+                                    Am I eligible?
+                                </h4>
+                                <p>
+                                    Yes, if you are passionate programmer eager to learn about no-bullshit software architecture. Most examples will be shown in Java.
+                                </p>
+                                <h4>
+                                    Trainer
+                                </h4>
+                                <p>
+                                    <a ng-click="scroll('.team')">Eduards Sizovs</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+
+            <div class="services container">
+                <div class="row featurette">
+                    <div class="col-md-2">
+                        <img src="/images/rocket.png" width="128px">
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="featurette-heading">
+                            We bootstrap projects. <span class="text-muted">Drive the right way.</span>
+                        </h3>
+                        <p>
+                            Chosen architecture, technological stack, methodologies and team determines sustainable evolution of your project. We prepare stable foundation you can continue building on top of. Besides bootstrapping new stuff, we’re ready to come for rescue when your existing software got derailed. We put it back on rails and eliminate the root cause of incident. Enjoy your trip!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="services container">
+                <div class="row featurette">
+                    <div class="col-md-2">
+                        <img src="/images/umbrella.png" width="128px">
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="featurette-heading">
+                            We protect projects. <span class="text-muted">Drive safe.</span>
+                        </h3>
+                        <p>
+                            Software development usually reminds the boiling frog story. We work side by side with you, watch your back and protect your project from getting boiled. It's our duty to reveal and prevent problems as early as possible and make sure your project is done in a timely, professional manner. It's like having an insurance. But unlike insurance that mitigate failures, we prevent them from happening.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="services container">
+                <div class="row featurette">
+                    <div class="col-md-2">
+                        <img src="/images/escalator.png" width="128px">
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="featurette-heading">
+                            We advise. <span class="text-muted">Achieve your goal.</span>
+                        </h3>
+                        <p>
+                            Over the years of being part of great projects, as well as weak ones, we learned what makes the difference. We provide consultancy services to find the most effective way for achieving your goals. Together we can recognise what is the right thing to do and how to get it right.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+        <div class="container team">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h1 class="featurette-heading">
+                        Meet the team
+                    </h1>
+                </div>
+            </div>
+            <div class="row featurette no-padding-top">
+                <div class="col-md-3">
+                    <img src="/images/eduardsi.png" width="200px">
+                    <p>
+                        <strong>Eduards Sizovs | Founder</strong>
+                    </p>
+                    <p>
+                        <a href="//www.linkedin.com/in/eduardsi" target="_blank"><img src="/images/linkedin.png" class="social"></a> <a href="//twitter.com/eduardsi" target="_blank"><img src="/images/twitter.png" class="social"></a>
+                    </p>
+                </div>
+                <div class="col-md-9">
+                    <p class="about">
+                        Eduards is software craftsman passionate about every aspect of software development. During his IT journey towards mastery he’s been walking in programmer's, architect's, technical leader's and IT manager’s shoes, attacking the most pressing issues of huge enterprises and cozy start-ups. Eduards strongly believes that mix of right attitude, mastery and vision can make software industry flourish. Eduards actively contributes to open source projects, speaks on conferences and consults various teams around the world on technical and organisational aspects of software development.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="darken">
+            <div class="container get-in-touch">
+                <div class="row featurette">
+                    <div class="col-md-12">
+                        <h3 class="featurette-heading">
+                            Get in touch <img class="arrow" src="/images/arrow.png" width="32px">
+                        </h3>
+                        <p>
+                            <a href="mailto:hello@craftsmans.lv" target="_blank"><img src="/images/email-bw.png"></a> <a href="mailto:hello@craftsmans.lv">hello@craftsmans.lv</a>
+                        </p>
+                        <p>
+                            <img src="/images/phone-bw.png"> +371 288 14 170
+                        </p>
+                        <p>
+                            <a href="http://www.linkedin.com/company/craftsmans" target="_blank"><img src="/images/linkedin-bw.png"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+<!--
+<div class="row featurette">
+  <div class="col-md-12">
+    <h2 class="featurette-heading">Bootstrapping</h2>
+    <p class="lead">Let's establish solid technological foundation at the beginning of your brand new project.</p>
+    - Adopt collaborative, agile and adaptive software delivery practices
+    - Create and implement a testing strategy
+    - Establishing XP disciplines
+    - Establishing proper architecture
+    - 
+  </div>
+
+
+  Architectural review!!!
+
+  Feedback!!! :)
+
+  STOIMOSTJ, EXPECTED DATE, EARLY BIRDS ICON, REGISTER BUTTON
+
+  RUSSKIJ TRENING
+</div>    -->
+        </div>
+    </body>
+</html>
