@@ -22,6 +22,15 @@
 	background-color: red;
 }
 
-.services .emphasize h3 {
-	background-color: red;
+.services .trainings .title span {
+	color: red;
 }
+
+.services .trainings .title:hover span {
+	color: #fff;
+}
+
+.services .trainings .row {
+
+}
+

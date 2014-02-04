@@ -22,13 +22,3 @@
   font-weight: 700;
   font-style: normal;
 }
-
-.ad a {
-  text-decoration: none;
-  color: #b5bdc1;
-  font-weight: 700;
-}
-
-.ad a:hover {
-  color: #f6cc68;
-}
