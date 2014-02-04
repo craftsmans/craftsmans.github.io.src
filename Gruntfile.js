@@ -321,9 +321,26 @@ module.exports = function (grunt) {
         configFile: 'karma.conf.js',
         singleRun: true
       }
+    },
+
+    buildcontrol: {
+    options: {
+      dir: 'dist',
+      commit: true,
+      push: true,
+      message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+    },
+    pages: {
+      options: {
+        remote: 'git@github.com:craftsmans/www.git',
+        branch: 'gh-pages'
+      }
     }
+  }
   });
 
+
+  grunt.loadNpmTasks('grunt-build-control');
 
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
