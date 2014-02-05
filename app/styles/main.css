@@ -5,6 +5,7 @@
 @import 'get_in_touch.css';
 @import 'team.css';
 @import 'services.css';
+@import 'expertise.css';
 
 .header {
   background-image: url('/images/macbook.jpg');
