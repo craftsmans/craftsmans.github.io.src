@@ -41,7 +41,7 @@ module.exports = function (grunt) {
     'ngmin',
     'copy:dist',
     'cdnify',
-    'cssmin',
+    'cssmin', 
     'uglify',
     'rev',
     'usemin',
@@ -67,7 +67,6 @@ module.exports = function (grunt) {
   }
 
   grunt.initConfig(configLoader('./grunt/config/'));
-
 
 };
 
