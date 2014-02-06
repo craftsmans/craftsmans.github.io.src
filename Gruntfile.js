@@ -54,8 +54,6 @@ module.exports = function (grunt) {
     'build'
   ]);
 
-  grunt.initConfig(configLoader('./grunt/config/'));
-
   function configLoader(path) {
     var glob = require('glob');
     var object = {};
@@ -66,7 +64,10 @@ module.exports = function (grunt) {
       object[key] = require(path + option);
     });
     return object;
-  };
+  }
+
+  grunt.initConfig(configLoader('./grunt/config/'));
+
 
 };
 
