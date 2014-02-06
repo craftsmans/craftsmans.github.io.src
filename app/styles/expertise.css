@@ -1,5 +1,5 @@
 .expertise {
-	background: #f6f9fa url('images/badge-pattern.png') repeat;
+	background: #f6f9fa url('../images/badge-pattern.png') repeat;
 	background-size: 50%;
 	border-bottom: solid 1px rgba(23,45,53,0.08);
 }
