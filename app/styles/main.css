@@ -70,8 +70,6 @@ h1+.subheading, .header .header-content h1+.subheading strong {
   }
 
    .header {
-      -webkit-box-shadow: 0 0 1000px 1000px rgba(0,0,0,0.6) inset;
-      -moz-box-shadow: 0 0 1000px 1000px rgba(0,0,0,0.6) inset;
       box-shadow: 0 0 1000px 1000px rgba(0,0,0,0.6) inset;
   }
 
