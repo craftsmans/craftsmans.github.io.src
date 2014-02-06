@@ -56,7 +56,7 @@ module.exports = function (grunt) {
 
   grunt.initConfig(configLoader('./grunt/config/'));
 
-  var configLoader = function(path) {
+  function configLoader(path) {
     var glob = require('glob');
     var object = {};
     var key;
