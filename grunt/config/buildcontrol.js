@@ -7,7 +7,7 @@ module.exports = {
   },
   pages: {
     options: {
-      remote: 'git@github.com:craftsmans/www.git',
+      remote: 'git@github.com:craftsmans/www.git', 
       branch: 'gh-pages'
     }
   }
