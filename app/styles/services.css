@@ -17,6 +17,10 @@
 	padding-left: 25px;
 }
 
+.services .training .block {
+	display: block;
+}
+
 .services .trainings .title:hover {
 	cursor: pointer;
 	background-color: red;
