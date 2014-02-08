@@ -48,6 +48,11 @@ module.exports = function (grunt) {
     'htmlmin'
   ]);
 
+  grunt.registerTask('deploy', [
+    'build',
+    'buildcontrol:pages'
+  ]);
+
   grunt.registerTask('default', [
     'newer:jshint',
     'test',
