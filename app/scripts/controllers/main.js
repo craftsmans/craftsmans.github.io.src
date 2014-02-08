@@ -7,8 +7,12 @@ angular.module('craftsmansApp').controller('MainCtrl', function ($scope) {
 	};
 
 	$scope.scrollAndEmphasize = function(selector) {
+		$(selector).collapse('show');
 		$('body').scrollTo(selector, 800);
-		$('#cleancode').collapse('show');
+	};
+
+	$scope.collapse = function(selector) {
+		$(selector).collapse('toggle');
 	};
 
 });
