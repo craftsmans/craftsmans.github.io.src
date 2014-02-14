@@ -14,5 +14,4 @@ angular.module('craftsmansApp').controller('MainCtrl', function ($scope) {
 	$scope.collapse = function(selector) {
 		$(selector).collapse('toggle');
 	};
-
 });
