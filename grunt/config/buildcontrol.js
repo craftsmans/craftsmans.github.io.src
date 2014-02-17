@@ -8,6 +8,7 @@ module.exports = {
   pages: {
     options: {
       remote: 'git@github.com:craftsmans/craftsmans.github.io.git', 
+      branch: 'master'
     }
   }
 }
