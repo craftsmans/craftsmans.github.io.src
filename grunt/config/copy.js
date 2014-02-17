@@ -8,6 +8,7 @@ module.exports = {
       src: [
         '*.{ico,png,txt}',
         '.htaccess',
+        'CNAME',
         '*.html',
         'views/{,*/}*.html',
         'bower_components/**/*',
