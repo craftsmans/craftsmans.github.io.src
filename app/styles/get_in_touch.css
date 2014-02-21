@@ -3,7 +3,7 @@
 	font-size: 16px;
 }
 
-.get-in-touch img:not(.arrow) {
+.get-in-touch img.icon {
 	width: 22px;
 	margin-right: 8px;
 }
