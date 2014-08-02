@@ -21,19 +21,6 @@
 	display: block;
 }
 
-.services .trainings .title:hover {
-	cursor: pointer;
-	background-color: red;
-}
-
-.services .trainings .title span {
-	color: red;
-}
-
-.services .trainings .title:hover span {
-	color: #fff;
-}
-
 .services .trainings .row {
 
 }
